@@ -206,7 +206,7 @@ def calculate_app_ages(data):
 def dev_app_count_col(data):
     # filename = "developer_apps_count.joblib"
     # developer_apps_count=joblib.load(filename)
-    developer_apps_count = pd.read_pickle('C:/Users/ahmed/PycharmProjects/deployment/developer_apps_count.pkl')
+    developer_apps_count = pd.read_pickle('developer_apps_count.pkl')
     listo = []
     for dev in data['Developer']:
 
